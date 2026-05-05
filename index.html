@@ -41,7 +41,7 @@ body{background:var(--bg);color:var(--t1);font-family:-apple-system,BlinkMacSyst
 .arc-step.done .arc-dot{background:var(--teal);}
 
 /* Page */
-.page{padding-top:82px;}
+.page{padding-top:52px;}
 section{padding:72px 32px;max-width:1080px;margin:0 auto;}
 section+section{border-top:1px solid var(--bdr);}
 .sec-eyebrow{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.4px;color:var(--gold);margin-bottom:10px;display:flex;align-items:center;gap:8px;}
@@ -257,19 +257,13 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
     <a class="nav-a" href="#motivations">Motivations</a>
     <a class="nav-a" href="#pain">Pain Points</a>
     <a class="nav-a active" href="#jtbd">Jobs to Be Done</a>
-    <a class="nav-a" href="#career">His Target Career</a>
+    <a class="nav-a" href="#career">Target Career</a>
   </div>
   <button class="nav-edit-btn" id="editBtn" onclick="toggleEdit()">✏ Edit</button>
   <button class="nav-save-btn" id="saveBtn" onclick="saveCanvas()">↓ Save copy</button>
 </nav>
 <div class="edit-banner" id="editBanner">Edit mode on — click any text to edit it. Hit Save copy when done.</div>
 
-<div class="arc-bar">
-  <div class="arc-step done" id="arc-problem"><div class="arc-dot"></div>Problem</div>
-  <div class="arc-step done" id="arc-analysis"><div class="arc-dot"></div>Analysis</div>
-  <div class="arc-step on" id="arc-insight"><div class="arc-dot"></div>Insight</div>
-  <div class="arc-step" id="arc-implication"><div class="arc-dot"></div>Implication</div>
-</div>
 
 <div class="page">
 
@@ -344,7 +338,7 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
         <div class="not-label-inline" spellcheck="false">Who Marcus Is Not</div>
         <div class="not-grid" style="grid-template-columns:1fr;">
           <div class="not-item" spellcheck="false"><strong>Needs a job in 30 days</strong>Urgency too high for Civilian Compass's 3–9 month framework. Refer out.</div>
-          <div class="not-item" spellcheck="false"><strong>Junior enlisted / basics only</strong>Other orgs serve this well — HOH, TAP, VA. Civilian Compass builds on an existing foundation.</div>
+          <div class="not-item" spellcheck="false"><strong>Junior enlisted / basics only</strong>Other orgs serve this well — Hiring Our Heroes (HOH), Transition Assistance Program (TAP), Department of Veterans Affairs (VA). Civilian Compass builds on an existing foundation.</div>
           <div class="not-item" spellcheck="false"><strong>Path already locked</strong>Knows the role, just needs execution. Not exploring. Wrong fit for Civilian Compass's discovery-first model.</div>
         </div>
       </div>
@@ -382,12 +376,12 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
       </div>
       <div class="jmap-row jmap-last">
         <div class="jmap-cell jmap-lbl" style="color:var(--teal);">What<br>exists</div>
-        <div class="jmap-cell">VA.gov (awareness), unit chain of command, pre-TAPS planning</div>
-        <div class="jmap-cell">TAPS (5-day mandatory), ACP Mentorship, USAJobs</div>
+        <div class="jmap-cell">VA.gov (Department of Veterans Affairs) awareness, unit chain of command, pre-TAPS planning</div>
+        <div class="jmap-cell">TAPS — Transition Assistance Program (5-day mandatory), ACP Mentorship, USAJobs</div>
         <div class="jmap-cell">Hiring Our Heroes, Marine Executive Assoc., SitReps, Redeployable</div>
         <div class="jmap-cell">SkillSyncer, LinkedIn, corporate events → "thoughts and prayers"</div>
-        <div class="jmap-cell jmap-now">DOD SkillBridge (best option available). 15 disconnected platforms. <span class="jmap-warn">⚠ No warm handoff. ⚠ No sequenced roadmap.</span></div>
-        <div class="jmap-cell">VA health &amp; benefits, GI Bill — transactional resources only</div>
+        <div class="jmap-cell jmap-now">Department of Defense (DOD) SkillBridge (best option available). 10+ disconnected platforms. <span class="jmap-warn">⚠ No warm handoff. ⚠ No sequenced roadmap.</span></div>
+        <div class="jmap-cell">Department of Veterans Affairs (VA) health &amp; benefits, GI Bill — transactional resources only</div>
         <div class="jmap-cell">Peer vet network. No structured give-back mechanism.</div>
       </div>
     </div>
@@ -395,16 +389,31 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
   <div class="mode-row">
     <div class="mode-card">
-      <div class="mode-name" spellcheck="false">Exploratory Mode (past)</div>
-      <div class="mode-desc" spellcheck="false">Wide sampling, low pressure. Marcus was here — before TAPS ended and the clock became real.</div>
+      <div class="mode-name">Exploratory Mode <span style="font-weight:400;font-size:10px;color:var(--t3);">9+ months out</span></div>
+      <div class="mode-desc">
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Mindset</span> <span style="font-size:12px;">Curiosity, low pressure</span></div>
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Goal</span> <span style="font-size:12px;">Learn → explore → refine</span></div>
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Behavior</span> <span style="font-size:12px;">Wide sampling</span></div>
+        <div><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Tone</span> <span style="font-size:12px;">Calming, expansive</span></div>
+      </div>
     </div>
     <div class="mode-card on">
-      <div class="mode-name" spellcheck="false">Tactical → Urgent (NOW)</div>
-      <div class="mode-desc" spellcheck="false">Dual-pathing: refine narrative, build network, narrow to highest-fit attainable roles. A fixed separation date with no flexibility. This is where Marcus lives today. <strong>Civilian Compass's confirmed entry sweet spot: 3–9 months from separation.</strong></div>
+      <div class="mode-name">Tactical Mode <span style="font-weight:400;font-size:10px;color:rgba(180,83,9,.7);">3–9 months out · Marcus is here</span></div>
+      <div class="mode-desc">
+        <div style="margin-bottom:5px;"><span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gold);">Mindset</span> <span style="font-size:12px;">Structure + learning</span></div>
+        <div style="margin-bottom:5px;"><span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gold);">Goal</span> <span style="font-size:12px;">Narrow options → lock target role → prepare civilian narrative</span></div>
+        <div style="margin-bottom:5px;"><span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gold);">Behavior</span> <span style="font-size:12px;">Dual-pathing, targeted exploration</span></div>
+        <div><span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--gold);">Tone</span> <span style="font-size:12px;">Structured, strategic. <strong>Civilian Compass's confirmed entry sweet spot.</strong></span></div>
+      </div>
     </div>
     <div class="mode-card">
-      <div class="mode-name" spellcheck="false">Post-Separation (ahead)</div>
-      <div class="mode-desc" spellcheck="false">New chapter begins. Identity grounding. Eventually rotates into the Civilian Compass mentor pool — the alumni flywheel in action.</div>
+      <div class="mode-name">Urgent Mode <span style="font-weight:400;font-size:10px;color:var(--t3);">0–3 months out or immediate income need</span></div>
+      <div class="mode-desc">
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Mindset</span> <span style="font-size:12px;">Stabilize</span></div>
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Goal</span> <span style="font-size:12px;">Speed to income, minimize overwhelm</span></div>
+        <div style="margin-bottom:5px;"><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Behavior</span> <span style="font-size:12px;">Focus on attainable roles</span></div>
+        <div><span style="color:var(--t3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;">Tone</span> <span style="font-size:12px;">Clear, directive, calm</span></div>
+      </div>
     </div>
 
   <div class="success-box" style="margin-top:28px;">
@@ -425,8 +434,8 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
     <div class="stack-group">
       <div class="stack-head" spellcheck="false">Government &amp; Mandatory</div>
       <div class="stack-body">
-        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">TAPS / TRS</div><div class="s-exp mix" spellcheck="false">Strong foundation — <strong>comprehensive, but ends with no next step</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">DOD SkillBridge</div><div class="s-exp pos" spellcheck="false"><strong>Best formal option available</strong> — Salesforce AE track in motion</div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">TAPS / TRS — Transition Assistance Program</div><div class="s-exp mix" spellcheck="false">Strong foundation — <strong>comprehensive, but ends with no next step</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">DOD SkillBridge — Department of Defense</div><div class="s-exp pos" spellcheck="false"><strong>Best formal option available</strong> — Salesforce AE track in motion</div></div></div>
         <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">USAJobs</div><div class="s-exp neg" spellcheck="false">Portal — <strong>2AM rejections, no human review</strong></div></div></div>
       </div>
     </div>
@@ -443,7 +452,7 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
       <div class="stack-body">
         <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">💼</div><div><div class="s-name" spellcheck="false">LinkedIn</div><div class="s-exp mix" spellcheck="false">Active — networking and applications, <strong>but connections rarely convert to conversations</strong></div></div></div>
         <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">📡</div><div><div class="s-name" spellcheck="false">SitReps</div><div class="s-exp neu" spellcheck="false">Resource discovery — <strong>no sequencing provided</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">📡</div><div><div class="s-name" spellcheck="false">Redeployable</div><div class="s-exp neu" spellcheck="false">Veteran job board — <strong>listings without context or guidance</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">📡</div><div><div class="s-name" spellcheck="false">Redeployable</div><div class="s-exp mix" spellcheck="false">"Like Tinder for checking out which job profile fits" — <strong>useful early (first 6 months of planning) for exploration, not execution</strong></div></div></div>
         <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">🔧</div><div><div class="s-name" spellcheck="false">SkillSyncer</div><div class="s-exp neu" spellcheck="false">ATS optimization tool — <strong>functional but surface-level</strong></div></div></div>
       </div>
     </div>
@@ -626,7 +635,7 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
   </div>
 
   <div style="margin-top:40px;margin-bottom:8px;">
-    <div style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:var(--teal);margin-bottom:16px;">How to Reach Him</div>
+    <div style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:var(--teal);margin-bottom:16px;">What Marcus Trusts</div>
     <div style="display:flex;flex-direction:column;gap:10px;">
       <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 16px;background:var(--gold-bg);border-radius:8px;font-size:12.5px;color:var(--navy);">
         <span style="font-size:11px;font-weight:800;color:var(--gold);min-width:18px;padding-top:1px;">1</span>
@@ -655,42 +664,22 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
   </div>
 </section>
 
-</div>
+
 
 <div class="footer">
   <div class="footer-inner">
-    <div class="footer-brand" spellcheck="false">Civilian <span>Compass</span> · Persona Canvas · Marcus Cole</div>
-    <div class="footer-meta" spellcheck="false">PMM Jam · May 2026 · Sushmita Banda<br>1 prospect interview · 2 founder calls · clarity exercise</div>
+    <div class="footer-brand">Civilian <span>Compass</span> · Persona Canvas</div>
+    <div class="footer-meta">Sushmita Banda · PMM Jam · May 2026</div>
   </div>
 </div>
 
 <script>
 const navLinks=document.querySelectorAll('.nav-a');
 const sections=document.querySelectorAll('section[id]');
-const arcMap={
-  hero:'problem', identity:'problem', journey:'problem',
-  stack:'analysis', motivations:'analysis', pain:'analysis',
-  jtbd:'insight', career:'insight', lines:'insight'
-};
-const arcOrder=['problem','analysis','insight','implication'];
-const arcEls={
-  problem:document.getElementById('arc-problem'),
-  analysis:document.getElementById('arc-analysis'),
-  insight:document.getElementById('arc-insight'),
-  implication:document.getElementById('arc-implication')
-};
 function updateNav(){
   let current='hero';
   sections.forEach(s=>{if(s.getBoundingClientRect().top<=90)current=s.id;});
   navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));
-  const cur=arcMap[current]||'problem';
-  const idx=arcOrder.indexOf(cur);
-  arcOrder.forEach((arc,i)=>{
-    const el=arcEls[arc];if(!el)return;
-    el.classList.remove('on','done');
-    if(i<idx)el.classList.add('done');
-    else if(i===idx)el.classList.add('on');
-  });
 }
 window.addEventListener('scroll',updateNav,{passive:true});
 updateNav();
