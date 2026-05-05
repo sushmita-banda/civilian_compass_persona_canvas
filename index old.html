@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Marcus Cole — Persona Canvas · Civilian Compass × PMM Jam</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -245,18 +246,18 @@ body.edit-mode [contenteditable]:hover{outline:2px solid rgba(180,83,9,.35);curs
 body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);background:rgba(180,83,9,.04);}
 </style>
 </head>
-<body class="">
+<body>
 
 <nav class="nav">
   <div class="nav-brand">Civilian <span>Compass</span> · Persona Canvas</div>
   <div class="nav-links">
-    <a class="nav-a" href="#hero">Overview</a>
+    <a class="nav-a active" href="#hero">Overview</a>
     <a class="nav-a" href="#identity">Identity</a>
     <a class="nav-a" href="#journey">The Journey</a>
     <a class="nav-a" href="#stack">The Stack</a>
     <a class="nav-a" href="#motivations">Motivations</a>
     <a class="nav-a" href="#pain">Pain Points</a>
-    <a class="nav-a active" href="#jtbd">Jobs to Be Done</a>
+    <a class="nav-a" href="#jtbd">Jobs to Be Done</a>
     <a class="nav-a" href="#career">His Target Career</a>
   </div>
   <button class="nav-edit-btn" id="editBtn" onclick="toggleEdit()">✏ Edit</button>
@@ -265,9 +266,9 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 <div class="edit-banner" id="editBanner">Edit mode on — click any text to edit it. Hit Save copy when done.</div>
 
 <div class="arc-bar">
-  <div class="arc-step done" id="arc-problem"><div class="arc-dot"></div>Problem</div>
-  <div class="arc-step done" id="arc-analysis"><div class="arc-dot"></div>Analysis</div>
-  <div class="arc-step on" id="arc-insight"><div class="arc-dot"></div>Insight</div>
+  <div class="arc-step on" id="arc-problem"><div class="arc-dot"></div>Problem</div>
+  <div class="arc-step" id="arc-analysis"><div class="arc-dot"></div>Analysis</div>
+  <div class="arc-step" id="arc-insight"><div class="arc-dot"></div>Insight</div>
   <div class="arc-step" id="arc-implication"><div class="arc-dot"></div>Implication</div>
 </div>
 
@@ -277,75 +278,77 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 <section id="hero" style="background:var(--navy);padding:80px 32px 72px;max-width:100%;border-top:none;margin:0;">
 <div class="inner" style="max-width:1080px;margin:0 auto;">
   <div class="hero-eyebrow">PMM Jam × Civilian Compass · Persona Canvas · May 2026</div>
-  <div class="hero-byline" spellcheck="false">SUSHMITA BANDA</div>
-  <div class="hero-quote" spellcheck="false">
-    I need an older guy to put his arm around me and say, "Hey buck, let me talk to you. Let me work you around." I don't want to send another resume into the ether. I want to get in front of a person.
+  <div class="hero-byline">Sushmita Banda</div>
+  <div class="hero-quote">
+    I need an older guy to put his arm around me and say, 'hey buck, let me talk to you. Let me work you around.' I don't want to send another resume into the ether. I want to get in front of a person.
   </div>
-  <div class="hero-attr" spellcheck="false">— Marcus Cole · US Marine Corps (USMC) Captain · Entering Civilian Life October 1, 2026</div>
+  <div class="hero-attr">— Marcus Cole · US Marine Corps (USMC) Captain · Entering Civilian Life October 1, 2026</div>
   <div class="method-note" style="margin-bottom:16px;">
-    <div class="method-label" spellcheck="false">Marcus in 10 Seconds</div>
-    <div class="method-text" spellcheck="false">
-      Marcus Cole (name changed for privacy) is a US Marine Corps (USMC) Captain with 10 years of service, entering civilian life October 1. He has been planning his transition for 16 months, networking and applying for jobs on 10+ platforms simultaneously, while being funneled toward a defense career he didn't choose. What he needs is conversations with people who can open real doors, not another resource.</div>
+    <div class="method-label">Marcus in 30 Seconds</div>
+    <div class="method-text">
+      Marcus Cole is a US Marine Corps (USMC) Captain with 10 years of service, entering civilian life October 1. He has been planning his transition for 16 months, networking and applying for jobs on 10+ platforms simultaneously, while being funneled toward a defense career he didn't choose. What he needs is conversations with people who can open real doors, not another resource. <strong>This canvas has been created for Civilian Compass to use as reference for messaging, writing copy, building ads, and content creation about a person with a name and deadline, not <em>just</em> a demographic.</strong>
+    </div>
   </div>
   <div class="method-note">
-    <div class="method-label" spellcheck="false">How THE PERSONA CANVAS Was Built &amp; What It's For</div>
-    <div class="method-text" spellcheck="false">
-      The foundation of the persona canvas is an 80-minute interview with a real prospect, Marcus Cole, cross-referenced with founder conversations with Langley Barth, and Civilian Compass documents. What emerged validated almost everything Lang already believed about who this product is for.&nbsp;<strong>Lang can use this canvas to brief collaborators, pressure-test ad creative, and stay consistent across every channel, without starting from scratch every time.</strong><br><br>The ideal next step is more interviews: to confirm, challenge, or expand what Marcus has shared.&nbsp;</div>
+    <div class="method-label">How This Was Built — and What It's For</div>
+    <div class="method-text">
+      The foundation is an 80-minute interview with a real prospect — Marcus Cole, name changed for privacy — cross-referenced with founder conversations and Civilian Compass documents. What emerged validated almost everything Langley Barth already believed about who this product is for. The research confirmed the founder's instinct, not the other way around.<br><br><strong>Lang can use this canvas to brief collaborators, pressure-test ad creative, and stay consistent across every channel — without starting from scratch every time.</strong><br><br>The right next step is more interviews: to confirm, challenge, or expand what Marcus showed us.
+    </div>
   </div>
 </div>
 </section>
 
 <!-- IDENTITY -->
 <section id="identity">
-  <div class="sec-eyebrow" spellcheck="false">Section 01 — identity</div>
-  <h2 class="sec-title" spellcheck="false">Meet Marcus</h2>
-  <p class="sec-sub" spellcheck="false">This is Marcus. This is who Civilian Compass is built for, someone deeply invested in finding the right career after the military, with a deadline that can't move. This is the journey he is on right now.</p>
+  <div class="sec-eyebrow">Section 01 — The Person · Problem</div>
+  <h2 class="sec-title">Meet Marcus</h2>
+  <p class="sec-sub">This is Marcus. This is who Civilian Compass is built for — someone deeply invested in finding the right career after the military, with a deadline that can't move. This is the journey he is on right now.</p>
 
   <div class="identity-grid">
     <div>
       <div class="id-avatar">MC</div>
-      <div class="id-name" spellcheck="false">Marcus Cole</div>
-      <div class="id-role" spellcheck="false">US Marine Corps (USMC) Captain · Ground Intelligence Officer&nbsp;·&nbsp;Leading 100–200 Marines</div>
+      <div class="id-name">Marcus Cole</div>
+      <div class="id-role">US Marine Corps (USMC) Captain · Ground Intelligence Officer<br>Leading 100–200 Marines</div>
       <div class="id-facts">
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Service</span><span class="id-fact-val" spellcheck="false">10 years, USMC</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Location</span><span class="id-fact-val" spellcheck="false">Southern California</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Family</span><span class="id-fact-val" spellcheck="false">3 kids (newborn + 2 older)</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Clearance</span><span class="id-fact-val" spellcheck="false">Active Security Clearance</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Skills</span><span class="id-fact-val" spellcheck="false">Unmanned Aerial Systems (UAS) Operations · Electronic Warfare · Intel</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Education</span><span class="id-fact-val" spellcheck="false">Environmental Science, Miami Univ.</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">Separating</span><span class="id-fact-val" spellcheck="false">October 1, 2026 (enters civilian life, date does not move)</span></div>
-        <div class="id-fact"><span class="id-fact-label" spellcheck="false">SkillBridge</span><span class="id-fact-val" spellcheck="false">Salesforce AE track (in motion, though not sure it's what he wants)</span></div>
+        <div class="id-fact"><span class="id-fact-label">Service</span><span class="id-fact-val">10 years, USMC</span></div>
+        <div class="id-fact"><span class="id-fact-label">Location</span><span class="id-fact-val">Southern California</span></div>
+        <div class="id-fact"><span class="id-fact-label">Family</span><span class="id-fact-val">3 kids (newborn + 2 older)</span></div>
+        <div class="id-fact"><span class="id-fact-label">Clearance</span><span class="id-fact-val">Active Security Clearance</span></div>
+        <div class="id-fact"><span class="id-fact-label">Skills</span><span class="id-fact-val">Unmanned Aerial Systems (UAS) Operations · Electronic Warfare · Intel</span></div>
+        <div class="id-fact"><span class="id-fact-label">Education</span><span class="id-fact-val">Environmental Science, Miami Univ.</span></div>
+        <div class="id-fact"><span class="id-fact-label">Separating</span><span class="id-fact-val">October 1, 2026 — enters civilian life, date does not move</span></div>
+        <div class="id-fact"><span class="id-fact-label">SkillBridge</span><span class="id-fact-val">Salesforce AE track — in motion, though not sure it's what he wants</span></div>
       </div>
     </div>
     <div class="id-summary">
       <div class="id-stats">
         <div class="id-stat">
-          <span class="id-stat-num" spellcheck="false">16 months</span>
-          <span class="id-stat-label" spellcheck="false">ahead of separation when he started planning</span>
+          <span class="id-stat-num">16 mo</span>
+          <span class="id-stat-label">ahead of separation when he started planning</span>
         </div>
         <div class="id-stat">
-          <span class="id-stat-num" spellcheck="false">10+</span>
-          <span class="id-stat-label" spellcheck="false">platforms where he's networking and searching for jobs simultaneously</span>
+          <span class="id-stat-num">10+</span>
+          <span class="id-stat-label">platforms where he's networking and searching for jobs simultaneously</span>
         </div>
         <div class="id-stat">
-          <span class="id-stat-num" spellcheck="false">Oct 1</span>
-          <span class="id-stat-label" spellcheck="false">enters civilian life — the date does not move</span>
+          <span class="id-stat-num">Oct 1</span>
+          <span class="id-stat-label">enters civilian life — the date does not move</span>
         </div>
         <div class="id-stat">
-          <span class="id-stat-num" spellcheck="false">Oct 5</span>
-          <span class="id-stat-label" spellcheck="false">target start date — suit on, zero gap planned</span>
+          <span class="id-stat-num">Oct 5</span>
+          <span class="id-stat-label">target start date — suit on, zero gap planned</span>
         </div>
       </div>
 
-      <p spellcheck="false">Marcus has an active security clearance, specialist technical skills, and the kind of leadership experience civilian companies spend years trying to develop. <strong>None of that matters to an ATS filter at 2AM on a Sunday.</strong></p>
-      <p spellcheck="false">His job search looks identical to a civilian's in the current market — applications into portals, networking that doesn't convert, corporate events that feel performative. The difference: <strong>a hard deadline he cannot move, a family depending on him, and an identity in transition, all at the same time.</strong></p>
+      <p>He has an active security clearance, specialist technical skills, and the kind of leadership experience civilian companies spend years trying to develop. <strong>None of that matters to an ATS filter at 2AM on a Sunday.</strong></p>
+      <p>His job search looks identical to a civilian's in a broken market — applications into portals, networking that doesn't convert, corporate events that feel performative. The difference: <strong>a hard deadline he cannot move, a family depending on him, and an identity in transition, all at the same time.</strong></p>
 
       <div class="not-marcus-inline">
-        <div class="not-label-inline" spellcheck="false">Who Marcus Is Not</div>
+        <div class="not-label-inline">Who Marcus Is Not</div>
         <div class="not-grid" style="grid-template-columns:1fr;">
-          <div class="not-item" spellcheck="false"><strong>Needs a job in 30 days</strong>Urgency too high for Civilian Compass's 3–9 month framework. Refer out.</div>
-          <div class="not-item" spellcheck="false"><strong>Junior enlisted / basics only</strong>Other orgs serve this well — HOH, TAP, VA. Civilian Compass builds on an existing foundation.</div>
-          <div class="not-item" spellcheck="false"><strong>Path already locked</strong>Knows the role, just needs execution. Not exploring. Wrong fit for Civilian Compass's discovery-first model.</div>
+          <div class="not-item"><strong>Needs a job in 30 days</strong>Urgency too high for Civilian Compass's 3–9 month framework. Refer out.</div>
+          <div class="not-item"><strong>Junior enlisted / basics only</strong>Other orgs serve this well — HOH, TAP, VA. Civilian Compass builds on an existing foundation.</div>
+          <div class="not-item"><strong>Path already locked</strong>Knows the role, just needs execution. Not exploring — executing. Wrong fit for Civilian Compass's discovery-first model.</div>
         </div>
       </div>
     </div>
@@ -354,9 +357,9 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
 <!-- THE JOURNEY -->
 <section id="journey">
-  <div class="sec-eyebrow" spellcheck="false">Section 02 — The Transition Journey</div>
-  <h2 class="sec-title" spellcheck="false">The Journey</h2>
-  <p class="sec-sub" spellcheck="false">Marcus started planning 16 months out. Two lanes show what each stage of the transition feels like for him and what the ecosystem currently offers — because any message that meets him in the wrong lane will miss entirely.</p>
+  <div class="sec-eyebrow">Section 02 — The Transition Journey · Problem</div>
+  <h2 class="sec-title">The Journey</h2>
+  <p class="sec-sub">Marcus started planning 16 months out. Two lanes show what each stage of the transition feels like for him and what the ecosystem currently offers — because any message that meets him in the wrong lane will miss entirely.</p>
 
   <div class="jmap-wrap">
     <div class="jmap">
@@ -395,56 +398,56 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
   <div class="mode-row">
     <div class="mode-card">
-      <div class="mode-name" spellcheck="false">Exploratory Mode (past)</div>
-      <div class="mode-desc" spellcheck="false">Wide sampling, low pressure. Marcus was here — before TAPS ended and the clock became real.</div>
+      <div class="mode-name">Exploratory Mode (past)</div>
+      <div class="mode-desc">Wide sampling, low pressure. Marcus was here — before TAPS ended and the clock became real.</div>
     </div>
     <div class="mode-card on">
-      <div class="mode-name" spellcheck="false">Tactical → Urgent (NOW)</div>
-      <div class="mode-desc" spellcheck="false">Dual-pathing: refine narrative, build network, narrow to highest-fit attainable roles. A fixed separation date with no flexibility. This is where Marcus lives today. <strong>Civilian Compass's confirmed entry sweet spot: 3–9 months from separation.</strong></div>
+      <div class="mode-name">Tactical → Urgent (NOW)</div>
+      <div class="mode-desc">Dual-pathing: refine narrative, build network, narrow to highest-fit attainable roles. A fixed separation date with no flexibility. This is where Marcus lives today. <strong>Civilian Compass's confirmed entry sweet spot: 3–9 months from separation.</strong></div>
     </div>
     <div class="mode-card">
-      <div class="mode-name" spellcheck="false">Post-Separation (ahead)</div>
-      <div class="mode-desc" spellcheck="false">New chapter begins. Identity grounding. Eventually rotates into the Civilian Compass mentor pool — the alumni flywheel in action.</div>
+      <div class="mode-name">Post-Separation (ahead)</div>
+      <div class="mode-desc">New chapter begins. Identity grounding. Eventually rotates into the Civilian Compass mentor pool — the alumni flywheel in action.</div>
     </div>
 
   <div class="success-box" style="margin-top:28px;">
-    <div class="success-label" spellcheck="false">What "Transition Went Well" Looks Like for Marcus</div>
-    <div class="success-text" spellcheck="false">
+    <div class="success-label">What "Transition Went Well" Looks Like for Marcus</div>
+    <div class="success-text">
       Not a title — a feeling. <strong>A role he chose, not defaulted into.</strong> Work that draws on more than his clearance — ideally something that reaches toward that Environmental Science degree and the five-year vision he hasn't yet let himself say out loud. Getting there through a person who knew his name, not a portal that never opened his resume. In six months he wants to be able to say <strong>the 10 years meant something that translated</strong> — and that the chapter ahead was built, not settled for.
     </div>
   </div>
-</div></section>
+</section>
 
 <!-- THE STACK -->
 <section id="stack">
-  <div class="sec-eyebrow" spellcheck="false">Section 03 — The Existing Ecosystem</div>
-  <h2 class="sec-title" spellcheck="false">What Marcus Has Already Tried</h2>
-  <p class="sec-sub" spellcheck="false">Marcus isn't missing resources. He is networking and searching for jobs across 10+ platforms simultaneously. The problem isn't quantity, it's that every platform hands him to the next one, and none are in conversation with each other.</p>
+  <div class="sec-eyebrow">Section 03 — The Existing Ecosystem · Analysis</div>
+  <h2 class="sec-title">What He's Already Tried</h2>
+  <p class="sec-sub">Marcus isn't missing resources. He is networking and searching for jobs across 10+ platforms simultaneously. The problem isn't quantity — it's that every platform hands him to the next one, and none are in conversation with each other.</p>
 
   <div class="stack-grid">
     <div class="stack-group">
-      <div class="stack-head" spellcheck="false">Government &amp; Mandatory</div>
+      <div class="stack-head">Government &amp; Mandatory</div>
       <div class="stack-body">
-        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">TAPS / TRS</div><div class="s-exp mix" spellcheck="false">Strong foundation — <strong>comprehensive, but ends with no next step</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">DOD SkillBridge</div><div class="s-exp pos" spellcheck="false"><strong>Best formal option available</strong> — Salesforce AE track in motion</div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">🏛</div><div><div class="s-name" spellcheck="false">USAJobs</div><div class="s-exp neg" spellcheck="false">Portal — <strong>2AM rejections, no human review</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">&#127963;</div><div><div class="s-name">TAPS / TRS</div><div class="s-exp mix">Strong foundation — <strong>comprehensive, but ends with no next step</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">&#127963;</div><div><div class="s-name">DOD SkillBridge</div><div class="s-exp pos"><strong>Best formal option available</strong> — Salesforce AE track in motion</div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#e8edf5;">&#127963;</div><div><div class="s-name">USAJobs</div><div class="s-exp neg">Portal — <strong>2AM rejections, no human review</strong></div></div></div>
       </div>
     </div>
     <div class="stack-group">
-      <div class="stack-head" spellcheck="false">Veteran Organizations</div>
+      <div class="stack-head">Veteran Organizations</div>
       <div class="stack-body">
-        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">🎖</div><div><div class="s-name" spellcheck="false">ACP Mentorship</div><div class="s-exp neu" spellcheck="false">Active — <strong>mentorship without warm handoff</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">🎖</div><div><div class="s-name" spellcheck="false">Hiring Our Heroes</div><div class="s-exp neg" spellcheck="false">Attended events — <strong>felt performative, no follow-through</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">🎖</div><div><div class="s-name" spellcheck="false">Marine Executive Assoc.</div><div class="s-exp neu" spellcheck="false">Active network — <strong>structure and sequence missing</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">&#127894;</div><div><div class="s-name">ACP Mentorship</div><div class="s-exp neu">Active — <strong>mentorship without warm handoff</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">&#127894;</div><div><div class="s-name">Hiring Our Heroes</div><div class="s-exp neg">Attended events — <strong>felt performative, no follow-through</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#edf5ee;">&#127894;</div><div><div class="s-name">Marine Executive Assoc.</div><div class="s-exp neu">Active network — <strong>structure and sequence missing</strong></div></div></div>
       </div>
     </div>
     <div class="stack-group">
-      <div class="stack-head" spellcheck="false">Transition Platforms</div>
+      <div class="stack-head">Transition Platforms</div>
       <div class="stack-body">
-        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">💼</div><div><div class="s-name" spellcheck="false">LinkedIn</div><div class="s-exp mix" spellcheck="false">Active — networking and applications, <strong>but connections rarely convert to conversations</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">📡</div><div><div class="s-name" spellcheck="false">SitReps</div><div class="s-exp neu" spellcheck="false">Resource discovery — <strong>no sequencing provided</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">📡</div><div><div class="s-name" spellcheck="false">Redeployable</div><div class="s-exp neu" spellcheck="false">Veteran job board — <strong>listings without context or guidance</strong></div></div></div>
-        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">🔧</div><div><div class="s-name" spellcheck="false">SkillSyncer</div><div class="s-exp neu" spellcheck="false">ATS optimization tool — <strong>functional but surface-level</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">&#128188;</div><div><div class="s-name">LinkedIn</div><div class="s-exp mix">Active — networking and applications, <strong>but connections rarely convert to conversations</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">&#128225;</div><div><div class="s-name">SitReps</div><div class="s-exp neu">Resource discovery — <strong>no sequencing provided</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">&#128225;</div><div><div class="s-name">Redeployable</div><div class="s-exp neu">Veteran job board — <strong>listings without context or guidance</strong></div></div></div>
+        <div class="stack-item"><div class="s-icon" style="background:#f0edf5;">&#128295;</div><div><div class="s-name">SkillSyncer</div><div class="s-exp neu">ATS optimization tool — <strong>functional but surface-level</strong></div></div></div>
       </div>
     </div>
   </div>
@@ -452,96 +455,96 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
 <!-- MOTIVATIONS -->
 <section id="motivations">
-  <div class="sec-eyebrow" spellcheck="false">Section 04 — What Drives Him</div>
-  <h2 class="sec-title" spellcheck="false">Motivations</h2>
-  <p class="sec-sub" spellcheck="false">Understanding what Marcus actually wants — beneath the job search tactics — is what separates positioning that earns trust from positioning that just sounds useful.</p>
+  <div class="sec-eyebrow">Section 04 — What Drives Him · Analysis</div>
+  <h2 class="sec-title">Motivations</h2>
+  <p class="sec-sub">Understanding what Marcus actually wants — beneath the job search tactics — is what separates positioning that earns trust from positioning that just sounds useful.</p>
 
   <div class="motiv-grid">
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Identity</div>
-      <div class="motiv-title" spellcheck="false">Lead, Not Just Execute</div>
-      <div class="motiv-desc" spellcheck="false">Marcus has led 100–200 people through high-stakes operations. <strong>He's not looking for a job — he's looking for the right arena to keep leading.</strong> The uniform was a context for that identity, not the source of it.</div>
+      <div class="motiv-tag">Identity</div>
+      <div class="motiv-title">Lead, Not Just Execute</div>
+      <div class="motiv-desc">Marcus has led 100&#8211;200 people through high-stakes operations. <strong>He's not looking for a job — he's looking for the right arena to keep leading.</strong> The uniform was a context for that identity, not the source of it.</div>
     </div>
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Security</div>
-      <div class="motiv-title" spellcheck="false">Certainty for His Family</div>
-      <div class="motiv-desc" spellcheck="false">Income stopping on a known date with a family to support means <strong>every wasted week has a real number attached.</strong> He needs clarity fast, and he knows it. This urgency is not panic — it's precision.</div>
+      <div class="motiv-tag">Security</div>
+      <div class="motiv-title">Certainty for His Family</div>
+      <div class="motiv-desc">Income stopping on a known date with a family to support means <strong>every wasted week has a real number attached.</strong> He needs clarity fast, and he knows it. This urgency is not panic — it's precision.</div>
     </div>
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Purpose</div>
-      <div class="motiv-title" spellcheck="false">Prove the 10 Years Translated</div>
-      <div class="motiv-desc" spellcheck="false">Not to others — to himself. He wants the civilian world to <strong>recognize what a decade of command actually means</strong>, without having to explain it to a recruiter who has never left the coast.</div>
+      <div class="motiv-tag">Purpose</div>
+      <div class="motiv-title">Prove the 10 Years Translated</div>
+      <div class="motiv-desc">Not to others — to himself. He wants the civilian world to <strong>recognize what a decade of command actually means</strong>, without having to explain it to a recruiter who has never left the coast.</div>
     </div>
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Fulfillment</div>
-      <div class="motiv-title" spellcheck="false">A Path That Uses All of Him</div>
-      <div class="motiv-desc" spellcheck="false">Not just the clearance. Not just the PM skills. The intelligence background, the Environmental Science degree, the leadership instinct. <strong>He also knows what he doesn't want: a sales career is off the table</strong>, despite what the SkillBridge track suggests.</div>
+      <div class="motiv-tag">Fulfillment</div>
+      <div class="motiv-title">A Path That Uses All of Him</div>
+      <div class="motiv-desc">Not just the clearance. Not just the PM skills. The intelligence background, the Environmental Science degree, the leadership instinct. <strong>He also knows what he doesn't want: a sales career is off the table</strong>, despite what the SkillBridge track suggests.</div>
     </div>
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Agency</div>
-      <div class="motiv-title" spellcheck="false">Integration, Not Isolation</div>
-      <div class="motiv-desc" spellcheck="false">"We're not a disabled class. We're just an isolated class." He wants to move through the civilian world on equal terms — chosen, not placed. <strong>Agency over charity, every time, in every message.</strong></div>
+      <div class="motiv-tag">Agency</div>
+      <div class="motiv-title">Integration, Not Isolation</div>
+      <div class="motiv-desc">"We're not a disabled class. We're just an isolated class." He wants to move through the civilian world on equal terms — chosen, not placed. <strong>Agency over charity, every time, in every message.</strong></div>
     </div>
     <div class="motiv-card">
-      <div class="motiv-tag" spellcheck="false">Legacy</div>
-      <div class="motiv-title" spellcheck="false">Become the Older Guy</div>
-      <div class="motiv-desc" spellcheck="false">Unprompted, he described wanting to eventually be the mentor who puts his arm around the next Marcus. <strong>He's not just trying to get out of this — he's already thinking about what he'll give back when he does.</strong></div>
+      <div class="motiv-tag">Legacy</div>
+      <div class="motiv-title">Become the Older Guy</div>
+      <div class="motiv-desc">Unprompted, he described wanting to eventually be the mentor who puts his arm around the next Marcus. <strong>He's not just trying to get out of this — he's already thinking about what he'll give back when he does.</strong></div>
     </div>
   </div>
 
   <div class="corridor-box">
-    <div class="corridor-label" spellcheck="false">The Safe Lane — and the Path He Hasn't Let Himself Take</div>
-    <div class="corridor-text" spellcheck="false">
-      Marcus is gravitating toward <strong>defense-adjacent PM roles</strong>&nbsp;(Northrop, L3Harris, ViaSat) because his clearance and UAS background make it the path of least resistance. TAPS conditioned him there. His peers default there.
+    <div class="corridor-label">The Safe Lane — and the Path He Hasn't Let Himself Take</div>
+    <div class="corridor-text">
+      Marcus is gravitating toward <strong>defense-adjacent PM roles</strong> — Northrop, L3Harris, ViaSat — because his clearance and UAS background make it the path of least resistance. TAPS conditioned him there. His peers default there.
       <br><br>
       <strong>But it's not where he wants to be in five years.</strong> He has an Environmental Science degree from Miami University. He named Corporate Sustainability as a secondary target, unprompted. Nobody has had the conversation with him that opens that aperture. He hasn't let himself ask the question because no one has told him it's available to ask.
     </div>
-    <div class="corridor-quote" spellcheck="false">"You don't have to be a project manager in defense the rest of your life." — Langley Barth, Founder · Civilian Compass</div>
+    <div class="corridor-quote">"You don't have to be a project manager in defense the rest of your life." &#8212; Langley Barth, Founder &middot; Civilian Compass</div>
   </div>
 </section>
 
 <!-- PAIN POINTS -->
 <section id="pain">
-  <div class="sec-eyebrow" spellcheck="false">Section 05 — In His Own Words</div>
-  <h2 class="sec-title" spellcheck="false">Pain Points</h2>
-  <p class="sec-sub" spellcheck="false">These are Marcus's exact words from the interview. Not paraphrased. This is the language every Civilian Compass message needs to resonate with, because it's how Marcus talks when nobody is optimizing his words for a pitch deck.</p>
+  <div class="sec-eyebrow">Section 05 — In His Own Words · Analysis</div>
+  <h2 class="sec-title">Pain Points</h2>
+  <p class="sec-sub">These are Marcus's exact words from the interview. Not paraphrased. This is the language every Civilian Compass message needs to resonate with — because it's how Marcus talks when nobody is optimizing his words for a pitch deck.</p>
 
   <div class="pain-grid">
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🙏</div>
-      <div class="pain-title" spellcheck="false">No More Hands Up</div>
-      <div class="pain-quote" spellcheck="false">"I went to a great one-day at Viasat. It seemed for show. 'Thanks for coming.' It's like thoughts and prayers."</div>
-      <div class="pain-context" spellcheck="false">Corporate veteran events feel performative. Hiring managers speak. Nothing follows. <strong>Every warm intro needs a next step attached — or it's theater.</strong></div>
+      <div class="pain-icon">&#128591;</div>
+      <div class="pain-title">No More Hands Up</div>
+      <div class="pain-quote">"I went to a great one-day at Viasat. It seemed for show. 'Thanks for coming.' It's like thoughts and prayers."</div>
+      <div class="pain-context">Corporate veteran events feel performative. Hiring managers speak. Nothing follows. <strong>Every warm intro needs a next step attached — or it's theater.</strong></div>
     </div>
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🤖</div>
-      <div class="pain-title" spellcheck="false">The 2AM Rejection</div>
-      <div class="pain-quote" spellcheck="false">"I got a rejection two days later. They didn't open it. It was over the weekend. What are we doing?"</div>
-      <div class="pain-context" spellcheck="false">Active clearance, Unmanned Aerial Systems (UAS) background, 10 years of command — rejected before any human saw it. <strong>The portal is the problem, not the candidate.</strong></div>
+      <div class="pain-icon">&#129302;</div>
+      <div class="pain-title">The 2AM Rejection</div>
+      <div class="pain-quote">"I got a rejection two days later. They didn't open it. It was over the weekend. What are we doing?"</div>
+      <div class="pain-context">Active clearance, Unmanned Aerial Systems (UAS) background, 10 years of command — rejected before any human saw it. <strong>The portal is the problem, not the candidate.</strong></div>
     </div>
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🌎</div>
-      <div class="pain-title" spellcheck="false">10+ Platforms, Zero Integration</div>
-      <div class="pain-quote" spellcheck="false">"We're inundated with stuff. I'm finding out new resources every day. No structured 'here's what you do in what order.'"</div>
-      <div class="pain-context" spellcheck="false">He's started cutting platforms because the overhead is unsustainable. <strong>The problem is never missing resources — it's always the missing sequence.</strong></div>
+      <div class="pain-icon">&#127758;</div>
+      <div class="pain-title">10+ Platforms, Zero Integration</div>
+      <div class="pain-quote">"We're inundated with stuff. I'm finding out new resources every day. No structured 'here's what you do in what order.'"</div>
+      <div class="pain-context">He's started cutting platforms because the overhead is unsustainable. <strong>The problem is never missing resources — it's always the missing sequence.</strong></div>
     </div>
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🦞</div>
-      <div class="pain-title" spellcheck="false">The Identity Question</div>
-      <div class="pain-quote" spellcheck="false">"We're not a disabled class. We're just an isolated class of people. I'm trying to poke some holes and get some integration with the populace."</div>
-      <div class="pain-context" spellcheck="false">The uniform was the identity. "Company commander" doesn't map to civilian ATS categories. <strong>He wants to be chosen, not charity. Integrated, not siloed.</strong></div>
+      <div class="pain-icon">&#129438;</div>
+      <div class="pain-title">The Identity Question</div>
+      <div class="pain-quote">"We're not a disabled class. We're just an isolated class of people. I'm trying to poke some holes and get some integration with the populace."</div>
+      <div class="pain-context">The uniform was the identity. "Company commander" doesn't map to civilian ATS categories. <strong>He wants to be chosen, not charity. Integrated, not siloed.</strong></div>
     </div>
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🕳</div>
-      <div class="pain-title" spellcheck="false">Where TAPS Stops</div>
-      <div class="pain-quote" spellcheck="false">"TAPS was phenomenal — comprehensive resources. But then it ends, and there's no 'here's the next step.'"</div>
-      <div class="pain-context" spellcheck="false">TAPS gives a foundation and then drops him. <strong>The 9-month window between TAPS ending and SkillBridge starting belongs to nobody in the current ecosystem.</strong></div>
+      <div class="pain-icon">&#128371;</div>
+      <div class="pain-title">Where TAPS Stops</div>
+      <div class="pain-quote">"TAPS was phenomenal — comprehensive resources. But then it ends, and there's no 'here's the next step.'"</div>
+      <div class="pain-context">TAPS gives a foundation and then drops him. <strong>The 9-month window between TAPS ending and SkillBridge starting belongs to nobody in the current ecosystem.</strong></div>
     </div>
     <div class="pain-card">
-      <div class="pain-icon" spellcheck="false">🚫</div>
-      <div class="pain-title" spellcheck="false">No Warm Handoffs Anywhere</div>
-      <div class="pain-quote" spellcheck="false">"Some platforms say 'you'd be fantastic as a PM.' Cool. Where's the entry? Link me in with your buddy at X company."</div>
-      <div class="pain-context" spellcheck="false">Every resource hands Marcus to another resource. He doesn't need more information about opportunities. <strong>He needs someone to open a specific door to a specific person.</strong></div>
+      <div class="pain-icon">&#128683;</div>
+      <div class="pain-title">No Warm Handoffs Anywhere</div>
+      <div class="pain-quote">"Some platforms say 'you'd be fantastic as a PM.' Cool. Where's the entry? Link me in with your buddy at X company."</div>
+      <div class="pain-context">Every resource hands Marcus to another resource. He doesn't need more information about opportunities. <strong>He needs someone to open a specific door to a specific person.</strong></div>
     </div>
   </div>
 </section>
@@ -549,48 +552,48 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
 <!-- JOBS TO BE DONE -->
 <section id="jtbd">
-  <div class="sec-eyebrow" spellcheck="false">Section 06 — JTBD Framework</div>
-  <h2 class="sec-title" spellcheck="false">Jobs to Be Done</h2>
-  <p class="sec-sub" spellcheck="false">The functional job ("find a role") is rarely the whole story. The emotional and social layers are where positioning either earns trust or misses the point entirely. All three layers must be addressed.</p>
+  <div class="sec-eyebrow">Section 06 — JTBD Framework · Insight</div>
+  <h2 class="sec-title">Jobs to Be Done</h2>
+  <p class="sec-sub">The functional job ("find a role") is rarely the whole story. The emotional and social layers are where positioning either earns trust or misses the point entirely. All three layers must be addressed.</p>
 
   <div class="jtbd-grid">
     <div class="jtbd-col">
       <div class="jtbd-head">
-        <div class="jtbd-type" spellcheck="false">⚙️ Layer 01</div>
-        <div class="jtbd-name" spellcheck="false">Functional Jobs</div>
+        <div class="jtbd-type">⚙️ Layer 01</div>
+        <div class="jtbd-name">Functional Jobs</div>
       </div>
       <div class="jtbd-body">
-        <div class="jtbd-item" spellcheck="false">Decide what to target, before applying anywhere</div>
-        <div class="jtbd-item" spellcheck="false">Translate 10 years of military experience into civilian language</div>
-        <div class="jtbd-item" spellcheck="false"><strong>Get in front of a real person at a specific company</strong></div>
-        <div class="jtbd-item" spellcheck="false">Build a functional network before income stops</div>
-        <div class="jtbd-item" spellcheck="false"><strong>Know what to do in what order (a sequenced roadmap)</strong></div>
+        <div class="jtbd-item">Decide what to target — before applying anywhere</div>
+        <div class="jtbd-item">Translate 10 years of military experience into civilian language</div>
+        <div class="jtbd-item"><strong>Get in front of a real person at a specific company</strong></div>
+        <div class="jtbd-item">Build a functional network before income stops</div>
+        <div class="jtbd-item"><strong>Know what to do in what order — the sequenced roadmap</strong></div>
       </div>
     </div>
     <div class="jtbd-col">
       <div class="jtbd-head">
-        <div class="jtbd-type" spellcheck="false">💜 Layer 02</div>
-        <div class="jtbd-name" spellcheck="false">Emotional Jobs</div>
+        <div class="jtbd-type">💜 Layer 02</div>
+        <div class="jtbd-name">Emotional Jobs</div>
       </div>
       <div class="jtbd-body">
-        <div class="jtbd-item" spellcheck="false"><strong>Preserve the identity the uniform gave, in a new form</strong></div>
-        <div class="jtbd-item" spellcheck="false">Avoid landing in a hollow role that doesn't fit who he is</div>
-        <div class="jtbd-item" spellcheck="false"><strong>Feel in control of the process, not carried by it</strong></div>
-        <div class="jtbd-item" spellcheck="false">Stop feeling like the system is working against him</div>
-        <div class="jtbd-item" spellcheck="false"><strong>Know that the 10 years meant something that translates</strong></div>
+        <div class="jtbd-item"><strong>Preserve the identity the uniform gave — in a new form</strong></div>
+        <div class="jtbd-item">Avoid landing in a hollow role that doesn't fit who he is</div>
+        <div class="jtbd-item"><strong>Feel in control of the process — not carried by it</strong></div>
+        <div class="jtbd-item">Stop feeling like the system is working against him</div>
+        <div class="jtbd-item"><strong>Know that the 10 years meant something that translates</strong></div>
       </div>
     </div>
     <div class="jtbd-col">
       <div class="jtbd-head">
-        <div class="jtbd-type" spellcheck="false">🌐 Layer 03</div>
-        <div class="jtbd-name" spellcheck="false">Social Jobs</div>
+        <div class="jtbd-type">🌐 Layer 03</div>
+        <div class="jtbd-name">Social Jobs</div>
       </div>
       <div class="jtbd-body">
-        <div class="jtbd-item" spellcheck="false"><strong>Be seen as someone who chose their next chapter, not placed</strong></div>
-        <div class="jtbd-item" spellcheck="false">Integrate with the civilian world, not siloed in a vet bubble</div>
-        <div class="jtbd-item" spellcheck="false">Be known by name to a person at the target company</div>
-        <div class="jtbd-item" spellcheck="false"><strong style="display: inline !important;">Not be bucketed, not be tokenized, not be a diversity metric</strong></div>
-        <div class="jtbd-item" spellcheck="false"><strong><span style="font-weight: 400;">Give back, eventually become the older guy with his arm around the next Marcus&nbsp;</span></strong><div><span style="font-weight: 400;"><br></span></div></div>
+        <div class="jtbd-item"><strong>Be seen as someone who chose their next chapter — not placed</strong></div>
+        <div class="jtbd-item">Integrate with the civilian world — not siloed in a vet bubble</div>
+        <div class="jtbd-item">Be known by name to a person at the target company</div>
+        <div class="jtbd-item">Give back — eventually become the older guy with his arm around the next Marcus</div>
+        <div class="jtbd-item"><strong>Not be bucketed, not be tokenized, not be a diversity metric</strong></div>
       </div>
     </div>
   </div>
@@ -598,29 +601,29 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
 <!-- TARGET CAREER -->
 <section id="career">
-  <div class="sec-eyebrow" spellcheck="false">Section 07 — The Full Picture</div>
-  <h2 class="sec-title" spellcheck="false">Target Career</h2>
-  <p class="sec-sub" spellcheck="false">The path the system is pushing him toward, the path underneath that he hasn't said out loud yet — and what Civilian Compass needs to do to be the one that makes the difference.</p>
+  <div class="sec-eyebrow">Section 07 — The Full Picture · Insight → Implication</div>
+  <h2 class="sec-title">His Target Career</h2>
+  <p class="sec-sub">The path the system is pushing him toward, the path underneath that he hasn't said out loud yet — and what Civilian Compass needs to do to be the one that makes the difference.</p>
 
   <div class="career-split">
     <div class="career-col default">
-      <div class="career-head"><div class="career-title" spellcheck="false">The Safe Default — Where the System Is Pushing Him</div></div>
+      <div class="career-head"><div class="career-title">The Safe Default — Where the System Is Pushing Him</div></div>
       <div class="career-body">
-        <div class="career-item" spellcheck="false">🥇 Program / Project Management — Northrop, L3Harris, ViaSat</div>
-        <div class="career-item" spellcheck="false">💼 Salesforce AE via DOD SkillBridge — suggested, not his preference</div>
-        <div class="career-item" spellcheck="false">🔐 Defense-adjacent: clearance + UAS = the obvious, safe value prop</div>
-        <div class="career-item" spellcheck="false">🚫 He knows what he doesn't want: a sales career is off the table</div>
-        <div class="career-item" spellcheck="false">⚠️ Why it's a trap: TAPS conditioned him here. He defaulted, not decided.</div>
+        <div class="career-item">🥇 Program / Project Management — Northrop, L3Harris, ViaSat</div>
+        <div class="career-item">💼 Salesforce AE via DOD SkillBridge — suggested, not his preference</div>
+        <div class="career-item">🔐 Defense-adjacent: clearance + UAS = the obvious, safe value prop</div>
+        <div class="career-item">🚫 He knows what he doesn't want: a sales career is off the table</div>
+        <div class="career-item">⚠️ Why it's a trap: TAPS conditioned him here. He defaulted, not decided.</div>
       </div>
     </div>
     <div class="career-col aspiration">
-      <div class="career-head"><div class="career-title" spellcheck="false">Where He Actually Wants to Go</div></div>
+      <div class="career-head"><div class="career-title">Where He Actually Wants to Go</div></div>
       <div class="career-body">
-        <div class="career-item" spellcheck="false">🌿 Corporate Sustainability (named as secondary target, unprompted)</div>
-        <div class="career-item" spellcheck="false">🎓 Environmental Science degree, Miami University</div>
-        <div class="career-item" spellcheck="false">🗺️ Geographically flexible</div>
-        <div class="career-item" spellcheck="false">🔭 5-year vision: not defense-adjacent. He knows it. He hasn't said it out loud yet.</div>
-        <div class="career-item" spellcheck="false">💬 What unlocks it: one conversation with someone who says "let me show you what else is possible."</div>
+        <div class="career-item">🌿 Corporate Sustainability — named as secondary target, unprompted</div>
+        <div class="career-item">🎓 Environmental Science degree, Miami University — not an accident</div>
+        <div class="career-item">🗺️ Geographically flexible — widens the aperture significantly</div>
+        <div class="career-item">🔭 5-year vision: not defense-adjacent. He knows it. He hasn't said it out loud yet.</div>
+        <div class="career-item">💬 What unlocks it: one conversation with someone who says "let me show you what else is possible."</div>
       </div>
     </div>
   </div>
@@ -630,26 +633,26 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
     <div style="display:flex;flex-direction:column;gap:10px;">
       <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 16px;background:var(--gold-bg);border-radius:8px;font-size:12.5px;color:var(--navy);">
         <span style="font-size:11px;font-weight:800;color:var(--gold);min-width:18px;padding-top:1px;">1</span>
-        <span class="reach-text" spellcheck="false">🤝 <strong>Langley's voice, first person</strong> — peer credibility over institution. He trusts veterans who made it, not programs.</span>
+        <span class="reach-text">🤝 <strong>Langley's voice, first person</strong> — peer credibility over institution. He trusts veterans who made it, not programs.</span>
       </div>
       <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 16px;background:var(--gold-bg);border-radius:8px;font-size:12.5px;color:var(--navy);">
         <span style="font-size:11px;font-weight:800;color:var(--gold);min-width:18px;padding-top:1px;">2</span>
-        <span class="reach-text" spellcheck="false">💬 <strong>Real conversations beat ten events</strong> — every warm intro comes with a specific follow-through attached. Not a room — a person, a date, a next step.</span>
+        <span class="reach-text">💬 <strong>Real conversations beat ten events</strong> — every warm intro comes with a specific follow-through attached. Not a room — a person, a date, a next step.</span>
       </div>
       <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 16px;background:var(--gold-bg);border-radius:8px;font-size:12.5px;color:var(--navy);">
         <span style="font-size:11px;font-weight:800;color:var(--gold);min-width:18px;padding-top:1px;">3</span>
-        <span class="reach-text" spellcheck="false">🚪 <strong>A warm introduction to a specific person</strong> — not a portal, not a resource list. One named connection is worth more than all 10 platforms combined.</span>
+        <span class="reach-text">🚪 <strong>A warm introduction to a specific person</strong> — not a portal, not a resource list. One named connection is worth more than all 10 platforms combined.</span>
       </div>
       <div style="display:flex;align-items:flex-start;gap:14px;padding:13px 16px;background:var(--gold-bg);border-radius:8px;font-size:12.5px;color:var(--navy);">
         <span style="font-size:11px;font-weight:800;color:var(--gold);min-width:18px;padding-top:1px;">4</span>
-        <span class="reach-text" spellcheck="false">🎯 <strong>Give him the sequence</strong> — not open-ended exploration. Orders he trusts, with a mission and clear next steps.</span>
+        <span class="reach-text">🎯 <strong>Give him the sequence</strong> — not open-ended exploration. Orders he trusts, with a mission and clear next steps.</span>
       </div>
     </div>
   </div>
 
   <div class="insight-box" style="margin-top:40px;">
-    <div class="insight-label" spellcheck="false">Positioning Implication for Civilian Compass</div>
-    <div class="insight-text" spellcheck="false">
+    <div class="insight-label">Positioning Implication for Civilian Compass</div>
+    <div class="insight-text">
       The market solves "get a veteran hired." Civilian Compass solves "help a veteran choose the right next chapter." These are different problems. Marcus represents exactly why that distinction matters — the system will get him hired in a role he didn't choose and won't want in five years. <strong>The conversation Civilian Compass needs to have with Marcus is not about his resume. It's about the Environmental Science degree he hasn't talked about in a job search context and the five-year vision he hasn't let himself articulate.</strong> That conversation doesn't exist anywhere else in the ecosystem right now.
     </div>
   </div>
@@ -659,8 +662,8 @@ body.edit-mode [contenteditable]:focus{outline:2px solid var(--gold-lt);backgrou
 
 <div class="footer">
   <div class="footer-inner">
-    <div class="footer-brand" spellcheck="false">Civilian <span>Compass</span> · Persona Canvas · Marcus Cole</div>
-    <div class="footer-meta" spellcheck="false">PMM Jam · May 2026 · Sushmita Banda<br>1 prospect interview · 2 founder calls · clarity exercise</div>
+    <div class="footer-brand">Civilian <span>Compass</span> · Persona Canvas · Marcus Cole</div>
+    <div class="footer-meta">PMM Jam · May 2026 · Sushmita Banda<br>1 prospect interview · 2 founder calls · clarity exercise</div>
   </div>
 </div>
 
@@ -757,5 +760,5 @@ function saveCanvas(){
   URL.revokeObjectURL(url);
 }
 </script>
-
-</body></html>
+</body>
+</html>
